@@ -4,8 +4,10 @@ import { useState } from "react";
 
 export default function Home() {
 
-  const [start, setStart] = useState(1);
-  const [end, setEnd] = useState(151);
+  // const [start, setStart] = useState(1);
+  // const [end, setEnd] = useState(151);
+  const start = 1;
+  const end = 151;
   const [randomArg, setRandomArg] = useState(0);
   const champion : number[] = [];
 
