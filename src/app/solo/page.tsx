@@ -1,33 +1,39 @@
 'use client'
 import { useState } from "react";
+import "./solo.css"
+import championData from "@/app/champion";
 
+
+interface Champion {
+    number: number;
+    name: string;
+    image: string;
+}
 
 export default function Home() {
 
-  // const [start, setStart] = useState(1);
-  // const [end, setEnd] = useState(151);
-  const start = 1;
-  const end = 151;
-  const [randomArg, setRandomArg] = useState(0);
-  const champion : number[] = [];
+    const [randomArg, setRandomArg] = useState(0);
 
-  for(let i = start; i <= end; i++){
-    champion.push(i);
-  }
+    const champion : Champion[] = championData();
 
-    const getRandomChampion = (): number => {
-        const randomIndex = Math.floor(Math.random() * champion.length);
-        return champion[randomIndex];
+    function getRandomChampion(): number {
+        return Math.floor(Math.random() * champion.length - 1) + 1;
     }
 
   return (
-    <div>
-      <p>{randomArg}</p>
-      <button
-          onClick={()=>{
-            setRandomArg(getRandomChampion())
-          }}
-      >변경</button>
-    </div>
+      <div className="global">
+          <img
+              src={`/image/${champion[randomArg].image}`}
+              alt={champion[randomArg].name}
+              width={200}
+              height={200}/>
+          <p>{champion[randomArg].name}</p>
+          <button
+              onClick={() => {
+                  setRandomArg(getRandomChampion())
+              }}
+          >변경
+          </button>
+      </div>
   );
 }

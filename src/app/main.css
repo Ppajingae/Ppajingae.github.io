@@ -1,0 +1,16 @@
+.global{
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.main{
+    margin: 0 auto;
+}
+
+button{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
