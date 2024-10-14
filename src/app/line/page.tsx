@@ -12,25 +12,28 @@ interface Champion {
 
 export default function Home() {
 
-  // const [start, setStart] = useState(1);
-  // const [end, setEnd] = useState(151);
-
-  const [randomArg, setRandomArg] = useState(0);
+    const [randomArg, setRandomArg] = useState({
+        number: 0,
+        name: "랜덤으로 돌려 주세요",
+        image: "random.png"
+    });
 
     const champion : Champion[] = championData();
 
-    function getRandomChampion(): number {
-        return Math.floor(Math.random() * champion.length - 1) + 1;
+    function getRandomChampion(): Champion {
+        const randomNumber =  Math.floor(Math.random() * champion.length - 1) + 1;
+
+        return champion[randomNumber];
     }
 
     return (
         <div className="global">
             <img
-                src={`/image/${champion[randomArg].image}`}
-                alt={champion[randomArg].name}
+                src={`/image/${randomArg.image}`}
+                alt={randomArg.name}
                 width={200}
                 height={200}/>
-            <p>{champion[randomArg].name}</p>
+            <p>{randomArg.name}</p>
             <button
                 onClick={() => {
                     setRandomArg(getRandomChampion())

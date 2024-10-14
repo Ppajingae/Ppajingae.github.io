@@ -8,11 +8,6 @@ export default function championData(): Champion[] {
 
     return [
         {
-            number: 0,
-            name: "랜덤으로 돌려 주세요",
-            image: "random.png"
-        },
-        {
             number: 1,
             name: "가렌",
             image: "garan.png"
