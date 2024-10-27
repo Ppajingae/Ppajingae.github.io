@@ -8,233 +8,318 @@ export default function championData(): Champion[] {
 
     return [
         {
-            number: 1,
+            number: 50,
             name: "가렌",
             image: "garan.png"
         },
         {
-            number: 2,
+            number: 57,
             name: "갈리오",
             image: "galio.png"
         },
         {
-            number: 3,
+            number: 30,
             name: "갱플랭크",
             image: "gangplank.png"
         },
         {
-            number: 4,
+            number: 44,
             name: "그라가스",
             image: "gragas.png"
         },
         {
-            number: 5,
+            number: 85,
             name: "그레이브즈",
             image: "graves.png"
         },
         {
-            number: 6,
+            number: 155,
             name: "그웬",
             image: "gwen.png"
         },
         {
-            number: 7,
+            number: 120,
             name: "나르",
             image: "gnar.png"
         },
         {
-            number: 8,
+            number: 108,
             name: "나미",
             image: "nami.png"
         },
         {
-            number: 9,
+            number: 38,
             name: "나서스",
             image: "nasus.png"
         },    {
-            number: 10,
+            number: 164,
             name: "나피리",
             image: "naafiri.png"
         },
         {
-            number: 11,
+            number: 93,
             name: "노틸러스",
             image: "nautilus.png"
         },
         {
-            number: 12,
+            number: 72,
             name: "녹턴",
             image: "nocturne.png"
         },
         {
-            number: 13,
+            number: 1,
             name: "누누",
             image: "nunu.png"
         },
         {
-            number: 14,
+            number: 42,
             name: "니달리",
             image: "nidalee.png"
         },
         {
-            number: 15,
+            number: 142,
             name: "니코",
             image: "neeko.png"
         },
         {
-            number: 16,
+            number: 161,
             name: "닐라",
             image: "nilah.png"
         },
         {
-            number: 17,
+            number: 98,
             name: "다리우스",
             image: "darius.png"
         },
         {
-            number: 18,
+            number: 102,
             name: "다이애나",
             image: "diana.png"
         },
         {
-            number: 19,
+            number: 99,
             name: "드레이븐",
             image: "draven.png"
         },
         {
-            number: 20,
+            number: 2,
             name: "라이즈",
             image: "ryze.png"
         },
         {
-            number: 21,
+            number: 136,
             name: "라칸",
             image: "rakan.png"
         },
         {
-            number: 22,
+            number: 26,
             name: "람머스",
             image: "rammus.png"
         },
         {
-            number: 23,
+            number: 62,
             name: "럭스",
             image: "lux.png"
         },
         {
-            number: 24,
+            number: 75,
             name: "럼블",
             image: "rumble.png"
         },
         {
-            number: 25,
+            number: 159,
             name: "레나타 글라스크",
             image: "renata_glasc.png"
         },
         {
-            number: 26,
+            number: 68,
             name: "레넥톤",
             image: "renekton.png"
         },
         {
-            number: 27,
+            number: 79,
             name: "레오나",
             image: "leona.png"
         },
         {
-            number: 28,
+            number: 123,
             name: "렉사이",
             image: "reksai.png"
         },
         {
-            number: 29,
+            number: 153,
             name: "렐",
             image: "rell.png"
         },
         {
-            number: 30,
+            number: 103,
             name: "렝가",
             image: "rengar.png"
         },
         {
-            number: 31,
+            number: 115,
             name: "루시안",
             image: "lucian.png"
         },
         {
-            number: 32,
+            number: 95,
             name: "룰루",
             image: "lulu.png"
         },
         {
-            number: 33,
+            number: 63,
             name: "르블랑",
             image: "leblanc.png"
         },
         {
-            number: 34,
-            name: "리신",
+            number: 73,
+            name: "리 신",
             image: "leesin.png"
         },
         {
-            number: 35,
+            number: 83,
             name: "리븐",
             image: "riven.png"
         },
         {
-            number: 36,
+            number: 113,
             name: "리산드라",
             image: "lissandra.png"
         },
         {
-            number: 37,
+            number: 149,
             name: "릴리아",
             image: "lillia.png"
         },
         {
-            number: 38,
+            number: 3,
             name: "마스터 이",
             image: "masteryi.png"
         },
         {
-            number: 39,
+            number: 70,
             name: "마오카이",
             image: "maokai.png"
         },
         {
-            number: 40,
+            number: 52,
             name: "말자하",
             image: "malzahar.png"
         },
         {
-            number: 41,
+            number: 32,
             name: "말파이트",
             image: "malphite.png"
         },
         {
-            number: 42,
+            number: 46,
             name: "모데카이저",
             image: "mordekaiser.png"
         },
         {
-            number: 43,
+            number: 4,
             name: "모르가나",
             image: "morgana.png"
         },
         {
-            number: 44,
+            number: 33,
             name: "문도 박사",
             image: "dr.mundo.png"
         },
         {
-            number: 45,
+            number: 59,
             name: "미스 포츈",
             image: "miss_fortune.png"
         },
         {
-            number: 46,
+            number: 163,
             name: "밀리오",
             image: "milio.png"
+        },
+        {
+            number: 124,
+            name: "바드",
+            image: "bard.png"
+        },
+        {
+            number: 97,
+            name: "바루스",
+            image: "varus.png"
+        },
+        {
+            number: 109,
+            name: "바이",
+            image: "vi.png"
+        },
+        {
+            number: 28,
+            name: "베이가",
+            image: "veigar.png"
+        },
+        {
+            number: 76,
+            name: "베인",
+            image: "vayne.png"
+        },
+        {
+            number: 157,
+            name: "벡스",
+            image: "vex.png"
+        },
+        {
+            number: 160,
+            name: "벨베스",
+            image: "belveth.png"
+        },
+        {
+            number: 118,
+            name: "벨코즈",
+            image: "velkoz.png"
+        },
+        {
+            number: 88,
+            name: "볼리베어",
+            image: "volibear.png"
+        },
+        {
+            number: 119,
+            name: "브라움",
+            image: "braum.png"
+        },
+        {
+            number: 165,
+            name: "브라이어",
+            image: "briar.png"
+        },
+        {
+            number: 74,
+            name: "브랜드",
+            image: "brand.png"
+        },
+        {
+            number: 56,
+            name: "블라디미르",
+            image: "vladimir.png"
+        },
+        {
+            number: 34,
+            name: "블리츠크랭크",
+            image: "blitzcrank.png"
+        },
+        {
+            number: 154,
+            name: "비에고",
+            image: "viego.png"
+        },
+        {
+            number: 90,
+            name: "빅토르",
+            image: "viktor.png"
+        },
+        {
+            number: 43,
+            name: "뽀삐",
+            image: "poppy.png"
         },
     ]
 }
